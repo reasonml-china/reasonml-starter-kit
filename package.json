@@ -1,0 +1,23 @@
+{
+  "name": "reasonml-starter-kit",
+  "version": "1.0.0",
+  "description": "ReasonML starter kit",
+  "main": "index.js",
+  "repository": "https://github.com/reasonml-china/reasonml-starter-kit.git",
+  "author": "Victor Wang(wang shaojie) <wang_shaojie@icloud.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "parcel ./src/index.html"
+  },
+  "devDependencies": {
+    "bs-platform": "^4.0.7",
+    "bsb-js": "^1.1.7",
+    "parcel-bundler": "^1.10.3"
+  },
+  "dependencies": {
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "reason-react": "^0.5.3"
+  }
+}
